@@ -9,7 +9,7 @@ func main(){
   router := http.NewServeMux()
 
   router.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello, World!")
+    http.ServeFile(w, r, "templates/index.html")
   })
   
   server := http.Server{
