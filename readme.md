@@ -8,7 +8,7 @@ This is a Go project with a server implemented in [server.go](server.go). It use
 
 1. Ensure you have Go installed on your machine.
 2. Clone this repository.
-3. Run `go mod download` to download the necessary Go modules.
+3. Run `go mod tidy` to download the necessary Go modules.
 
 ## Usage
 
