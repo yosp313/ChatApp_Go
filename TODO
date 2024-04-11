@@ -1,0 +1,6 @@
+
+Todo:
+  [] Chat Hub for all users
+  [] Chat Rooms with auto generated ids
+  [] user auth
+  [] database for saving the chat history
